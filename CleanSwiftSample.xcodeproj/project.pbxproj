@@ -9,19 +9,34 @@
 /* Begin PBXBuildFile section */
 		4D60E3CA2A6C3225000F5B65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3C92A6C3225000F5B65 /* AppDelegate.swift */; };
 		4D60E3CC2A6C3225000F5B65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3CB2A6C3225000F5B65 /* SceneDelegate.swift */; };
-		4D60E3CE2A6C3225000F5B65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3CD2A6C3225000F5B65 /* ViewController.swift */; };
+		4D60E3CE2A6C3225000F5B65 /* LoginSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3CD2A6C3225000F5B65 /* LoginSceneViewController.swift */; };
 		4D60E3D32A6C3226000F5B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D60E3D22A6C3226000F5B65 /* Assets.xcassets */; };
 		4D60E3D62A6C3226000F5B65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D60E3D42A6C3226000F5B65 /* LaunchScreen.storyboard */; };
+		4D60E3E22A6CF4CD000F5B65 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D60E3E12A6CF4CD000F5B65 /* SnapKit */; };
+		4D60E3E52A6D0803000F5B65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3E42A6D0803000F5B65 /* User.swift */; };
+		4D60E3E82A6D0AC6000F5B65 /* LoginSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3E72A6D0AC6000F5B65 /* LoginSceneInteractor.swift */; };
+		4D60E3EA2A6D0CF6000F5B65 /* LoginScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3E92A6D0CF6000F5B65 /* LoginScenePresenter.swift */; };
+		4D60E3EC2A6D0F16000F5B65 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3EB2A6D0F16000F5B65 /* AuthService.swift */; };
+		4D60E3EE2A6D198D000F5B65 /* LoginSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3ED2A6D198D000F5B65 /* LoginSceneRouter.swift */; };
+		4D60E3F12A6D21F3000F5B65 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3F02A6D21F3000F5B65 /* SceneFactory.swift */; };
+		4D60E3F32A6D2234000F5B65 /* LoginSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60E3F22A6D2234000F5B65 /* LoginSceneConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D60E3C62A6C3225000F5B65 /* CleanSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D60E3C92A6C3225000F5B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D60E3CB2A6C3225000F5B65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D60E3CD2A6C3225000F5B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D60E3CD2A6C3225000F5B65 /* LoginSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneViewController.swift; sourceTree = "<group>"; };
 		4D60E3D22A6C3226000F5B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D60E3D52A6C3226000F5B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D60E3D72A6C3226000F5B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D60E3E42A6D0803000F5B65 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4D60E3E72A6D0AC6000F5B65 /* LoginSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneInteractor.swift; sourceTree = "<group>"; };
+		4D60E3E92A6D0CF6000F5B65 /* LoginScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScenePresenter.swift; sourceTree = "<group>"; };
+		4D60E3EB2A6D0F16000F5B65 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4D60E3ED2A6D198D000F5B65 /* LoginSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneRouter.swift; sourceTree = "<group>"; };
+		4D60E3F02A6D21F3000F5B65 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		4D60E3F22A6D2234000F5B65 /* LoginSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D60E3E22A6CF4CD000F5B65 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +70,69 @@
 		4D60E3C82A6C3225000F5B65 /* CleanSwiftSample */ = {
 			isa = PBXGroup;
 			children = (
-				4D60E3C92A6C3225000F5B65 /* AppDelegate.swift */,
-				4D60E3CB2A6C3225000F5B65 /* SceneDelegate.swift */,
-				4D60E3CD2A6C3225000F5B65 /* ViewController.swift */,
+				4D60E3F42A6D3237000F5B65 /* Services */,
+				4D60E3EF2A6D21D0000F5B65 /* Factories */,
+				4D60E3E32A6D07C6000F5B65 /* App */,
+				4D60E3DE2A6C356D000F5B65 /* Scenes */,
+				4D60E3DD2A6C3561000F5B65 /* Models */,
 				4D60E3D22A6C3226000F5B65 /* Assets.xcassets */,
 				4D60E3D42A6C3226000F5B65 /* LaunchScreen.storyboard */,
 				4D60E3D72A6C3226000F5B65 /* Info.plist */,
 			);
 			path = CleanSwiftSample;
+			sourceTree = "<group>";
+		};
+		4D60E3DD2A6C3561000F5B65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E3E42A6D0803000F5B65 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D60E3DE2A6C356D000F5B65 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E3DF2A6C357E000F5B65 /* LoginScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4D60E3DF2A6C357E000F5B65 /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E3CD2A6C3225000F5B65 /* LoginSceneViewController.swift */,
+				4D60E3E72A6D0AC6000F5B65 /* LoginSceneInteractor.swift */,
+				4D60E3E92A6D0CF6000F5B65 /* LoginScenePresenter.swift */,
+				4D60E3ED2A6D198D000F5B65 /* LoginSceneRouter.swift */,
+				4D60E3F22A6D2234000F5B65 /* LoginSceneConfigurator.swift */,
+			);
+			path = LoginScene;
+			sourceTree = "<group>";
+		};
+		4D60E3E32A6D07C6000F5B65 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E3C92A6C3225000F5B65 /* AppDelegate.swift */,
+				4D60E3CB2A6C3225000F5B65 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4D60E3EF2A6D21D0000F5B65 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E3F02A6D21F3000F5B65 /* SceneFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		4D60E3F42A6D3237000F5B65 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4D60E3EB2A6D0F16000F5B65 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,6 +151,9 @@
 			dependencies = (
 			);
 			name = CleanSwiftSample;
+			packageProductDependencies = (
+				4D60E3E12A6CF4CD000F5B65 /* SnapKit */,
+			);
 			productName = CleanSwiftSample;
 			productReference = 4D60E3C62A6C3225000F5B65 /* CleanSwiftSample.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +182,9 @@
 				Base,
 			);
 			mainGroup = 4D60E3BD2A6C3225000F5B65;
+			packageReferences = (
+				4D60E3E02A6CF4CD000F5B65 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 4D60E3C72A6C3225000F5B65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,9 +211,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D60E3CE2A6C3225000F5B65 /* ViewController.swift in Sources */,
+				4D60E3EC2A6D0F16000F5B65 /* AuthService.swift in Sources */,
+				4D60E3F32A6D2234000F5B65 /* LoginSceneConfigurator.swift in Sources */,
+				4D60E3EE2A6D198D000F5B65 /* LoginSceneRouter.swift in Sources */,
+				4D60E3CE2A6C3225000F5B65 /* LoginSceneViewController.swift in Sources */,
+				4D60E3E52A6D0803000F5B65 /* User.swift in Sources */,
+				4D60E3F12A6D21F3000F5B65 /* SceneFactory.swift in Sources */,
 				4D60E3CA2A6C3225000F5B65 /* AppDelegate.swift in Sources */,
 				4D60E3CC2A6C3225000F5B65 /* SceneDelegate.swift in Sources */,
+				4D60E3E82A6D0AC6000F5B65 /* LoginSceneInteractor.swift in Sources */,
+				4D60E3EA2A6D0CF6000F5B65 /* LoginScenePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D60E3E02A6CF4CD000F5B65 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D60E3E12A6CF4CD000F5B65 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D60E3E02A6CF4CD000F5B65 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D60E3BE2A6C3225000F5B65 /* Project object */;
 }
